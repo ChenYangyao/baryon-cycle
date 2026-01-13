@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "baryon-cycle"
+version = "0.0.1"
+authors = [
+  { name="Yangyao Chen", email="yangyaochen.astro@foxmail.com" },
+  { name="Chengyu Ma", email="3065616846@qq.com" },
+  { name="Enci Wang", email="ecwang16@ustc.edu.cn" }
+]
+description = "BAGS: Revealing baryon cycle around galaxies with stacking analysis"
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "pyhipp>=0.3.6", "flake8", "pytest>=7.0.0"
+]
+
+[project.urls]
+Repository = "https://github.com/ChenYangyao/baryon-cycle.git"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = [
+  ".", "src"
+]
