@@ -11,20 +11,21 @@ The package holds the codes and data products for the BAGS project
 
 ## Publications 
 
-- Chengyu Ma, Yangyao Chen, Enci Wang et al. 2025 (Paper-I; arXiv ???; submitted to ???).
+- Chengyu Ma, Yangyao Chen, Enci Wang et al. 2025 (Paper-I, the method and application to TNG). arXiv ???; submitted to ???.
 
 ## Installation
 
-To install the package, run:
+You can clone the repository and install the package locally via `pip install -e /path/to/the/repo`.
+
+Alternatively, if you are only interested in using the python module without the codes and data products, we also prepare a PyPI package that can be installed via pip:
 ```bash
 pip install baryon-cycle
 ```
-Alternatively, you can clone the repository and install the package locally via `pip install -e /path/to/the/repo`.
+Alternatively, 
 
 ## Codes and data products for the papers
 
-- Paper-I: [docs/2026-BAGS-method/](docs/2026-BAGS-method/)
-
+- Paper-I: [docs/Paper-I-BAGS-method/](docs/Paper-I-BAGS-method/)
 
 ## For developers
 
