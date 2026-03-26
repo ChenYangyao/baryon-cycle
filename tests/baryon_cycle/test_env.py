@@ -5,3 +5,6 @@ def test_env():
     
 def test_version():
     print(baryon_cycle)
+    
+def test_proj_paths():
+    print('Project dir:', baryon_cycle.ProjPaths.proj_dir)
