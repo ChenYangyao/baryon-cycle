@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "baryon-cycle"
-version = "0.0.1"
+version = "0.0.2"
 authors = [
   { name="Yangyao Chen", email="yangyaochen.astro@foxmail.com" },
   { name="Chengyu Ma", email="3065616846@qq.com" },
@@ -19,7 +19,7 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 dependencies = [
-    "pyhipp>=0.3.6", "flake8", "pytest>=7.0.0"
+    "pyhipp>=0.3.6", "flake8", "pytest>=7.0.0", "pyhipp_sims"
 ]
 
 [project.urls]
