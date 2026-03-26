@@ -1,3 +1,4 @@
 flake8
 pytest
-pyhipp>=0.3.6
+pyhipp>=0.3.7
+pyhipp_sims
