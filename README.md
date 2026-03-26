@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="1024px" src="https://raw.githubusercontent.com/ChenYangyao/baryon-cycle/master/docs/site-data/cover-github.jpg" alt="BAGS: Revealing baryon cycle around galaxies with stacking analysis"/>
+  <img width="1280px" src="https://raw.githubusercontent.com/ChenYangyao/baryon-cycle/master/docs/site-data/cover-github.png" alt="BAGS: Revealing baryon cycle around galaxies with stacking analysis"/>
 </div>
 
 [![Last commit](https://img.shields.io/github/last-commit/ChenYangyao/baryon-cycle/master)](https://github.com/ChenYangyao/baryon-cycle/commits/master)
@@ -7,11 +7,11 @@
 [![MIT License](https://img.shields.io/badge/License-MIT-blue)](https://github.com/ChenYangyao/baryon-cycle/blob/master/LICENSE)
 [![PyPI](https://img.shields.io/pypi/v/baryon-cycle)](https://pypi.org/project/baryon-cycle/)
 
-The package holds the codes and data products for the BAGS project
+The package holds the codes and data products for the ***BAGS*** project.
 
 ## Publications 
 
-- Chengyu Ma, Yangyao Chen, Enci Wang et al. 2025 (Paper-I, the method and application to TNG). arXiv ???; submitted to ???.
+- Chengyu Ma, Yangyao Chen*, Enci Wang* et al. 2025 (the stacking method). arXiv ???; published in ???, 202?, ???, ??.
 
 ## Installation
 
@@ -21,11 +21,10 @@ Alternatively, if you are only interested in using the python module without the
 ```bash
 pip install baryon-cycle
 ```
-Alternatively, 
 
 ## Codes and data products for the papers
 
-- Paper-I: [docs/Paper-I-BAGS-method/](docs/Paper-I-BAGS-method/)
+- Paper-I: [docs/Paper-I-BAGS-method/](docs/Paper-I-BAGS-method/). Code samples and data for running the code are available. 3D fields and fields for individual galaxies are too large to be stored here, but are available upon request.
 
 ## For developers
 
@@ -47,6 +46,6 @@ Any issue is welcomed. If you have any question or suggestion, please open an is
 
 ## Contacts
 
-- Chengyu Ma (3065616846@qq.com)
-- Yangyao Chen (yangyaochen.astro@foxmail.com)
-- Enci Wang (ecwang16@ustc.edu.cn)
+- Chengyu Ma (USTC, 3065616846@qq.com)
+- Yangyao Chen* (NJU, yangyaochen.astro@foxmail.com)
+- Enci Wang* (USTC, ecwang16@ustc.edu.cn)
